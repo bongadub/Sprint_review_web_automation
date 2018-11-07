@@ -1,0 +1,4 @@
+toolium
+behave         # behave tests
+behave-pytest  # pytest assertions in behave tests
+needle==0.4.1  # visual testing

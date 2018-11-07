@@ -1,0 +1,26 @@
+DEBUG   2018-11-07 12:41:27,529 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Sprint Review Tasks/Sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-07 12:41:27,530 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Sprint Review Tasks/Sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-07 12:41:27,536 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-07 12:41:27,536 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-07 12:41:29,135 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-11-07 12:41:29,137 [environment] Running new scenario: successful login
+DEBUG   2018-11-07 12:41:29,138 [login] 
+Atempting to open the page
+DEBUG   2018-11-07 12:41:34,401 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-07 12:41:34,688 [login] 
+Atempting to click login button
+INFO    2018-11-07 12:41:41,698 [environment] The scenario 'successful login' has passed
+DEBUG   2018-11-07 12:41:41,767 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Sprint Review Tasks/Sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-07 12:41:41,767 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Sprint Review Tasks/Sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-07 12:41:41,770 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-07 12:41:41,770 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-07 12:41:43,395 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-11-07 12:41:43,398 [environment] Running new scenario: successful logout
+DEBUG   2018-11-07 12:41:43,400 [login] 
+Atempting to open the page
+DEBUG   2018-11-07 12:41:47,438 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-07 12:41:47,724 [login] 
+Atempting to click login button
+DEBUG   2018-11-07 12:41:54,768 [secure_area] 
+Atempting to click logout button
+INFO    2018-11-07 12:42:02,187 [environment] The scenario 'successful logout' has passed
