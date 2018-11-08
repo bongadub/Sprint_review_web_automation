@@ -32,19 +32,18 @@ class RegistrationPageObject(PageObject):
 
         return self
 
-    def wait_until_loaded(self):
-        """ Wait until login page is loaded
+    # def wait_until_loaded(self):
+    #     """ Wait until login page is loaded
 
-        :returns: this page object instance
-        """
-        self.username.wait_until_visible()
-        return self
+    #     :returns: this page object instance
+    #     """
+    #     self.username.wait_until_visible()
+    #     return self
 
     def create_account(self):
-        self.email = self.driver.find_element(By.XPATH, '//*[@id="email_create"]').send_keys('abc1141wwwe1335345@gmail.com')
+        self.email = self.driver.find_element(By.XPATH, '//*[@id="email_create"]').send_keys('1b@gmail.com')
         self.submit = Button(By.ID, 'SubmitCreate').click()
-
-       
+  
         time.sleep(3)
         return self
 
@@ -53,6 +52,17 @@ class RegistrationPageObject(PageObject):
         self.first_name = self.driver.find_element(By.XPATH, '//*[@id="customer_firstname"]').send_keys('Sam')
         self.last_name = self.driver.find_element(By.XPATH, '//*[@id="customer_lastname"]').send_keys('Nyubatya')
         self.password = self.driver.find_element(By.XPATH, '//*[@id="passwd"]').send_keys('password')
-        
+        self.date = self.driver.find_element(By.XPATH, '//*[@id="days"]/option[@value=5]').click()
+        self.month = self.driver.find_element(By.XPATH, '//*[@id="months"]/option[@value=5]').click()
+        self.years = self.driver.find_element(By.XPATH, '//*[@id="years"]/option[@value=1995]').click()
+        self.company = self.driver.find_element(By.XPATH, '//*[@id="company"]').send_keys('Company PTY (LTD')
+        self.address = self.driver.find_element(By.XPATH, '//*[@id="address1"]').send_keys(' 1 street')
+        self.city = self.driver.find_element(By.XPATH, '//*[@id="city"]').send_keys('City')
+        self.state = self.driver.find_element(By.XPATH, '//*[@id="id_state"]/option[@value=11]').click()
+        self.zip_code = self.driver.find_element(By.XPATH, '//*[@id="postcode"]').send_keys('90002')
+        self.add_info = self.driver.find_element(By.XPATH, '//*[@id="other"]').send_keys('027 0010 0489')
+        self.mobile_num = self.driver.find_element(By.XPATH, '//*[@id="phone_mobile"]').send_keys('073 4534 764')
+        #self.register = self.driver.find_element(By.XPATH, '//*[@id="submitAccount"]').click()
+
         time.sleep(3)
         return self
