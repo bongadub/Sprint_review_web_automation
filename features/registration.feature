@@ -1,3 +1,4 @@
+@Registration
 Feature: Registration
 
   Scenario: Account Registration

@@ -22,3 +22,15 @@
 2018-11-08 11:42:01.067408 'Account Registration' test logs with driver = chrome
 
 2018-11-08 11:41:52.024000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-08 12:59:13.832098 'login' test logs with driver = chrome
+
+2018-11-08 12:59:06.361000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-08 13:15:54.072710 'login' test logs with driver = chrome
+
+2018-11-08 13:15:41.158000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-08 13:20:16.912973 'login' test logs with driver = chrome
+
+2018-11-08 13:20:04.667000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
