@@ -2805,3 +2805,211 @@ DEBUG   2018-11-08 14:44:01,290 [search] Login with user 'bongadubula@gmail.com'
 DEBUG   2018-11-08 14:44:01,593 [search] 
 Atempting to click login button
 INFO    2018-11-08 14:44:19,021 [environment] The scenario 'login' has passed
+DEBUG   2018-11-09 10:13:20,193 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 10:13:20,194 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 10:13:20,197 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 10:13:20,197 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 10:13:21,822 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 10:13:21,928 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 10:13:21,930 [environment] Running new scenario: successful login
+DEBUG   2018-11-09 10:13:21,932 [login] 
+Atempting to open the page
+DEBUG   2018-11-09 10:13:27,095 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-09 10:13:27,373 [login] 
+Atempting to click login button
+INFO    2018-11-09 10:13:34,309 [environment] The scenario 'successful login' has passed
+DEBUG   2018-11-09 10:13:34,374 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 10:13:34,374 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 10:13:34,376 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 10:13:34,376 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 10:13:35,990 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 10:13:36,095 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 10:13:36,096 [environment] Running new scenario: successful logout
+DEBUG   2018-11-09 10:13:36,097 [login] 
+Atempting to open the page
+DEBUG   2018-11-09 10:13:41,012 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-09 10:13:41,289 [login] 
+Atempting to click login button
+DEBUG   2018-11-09 10:13:47,920 [secure_area] 
+Atempting to click logout button
+INFO    2018-11-09 10:13:55,188 [environment] The scenario 'successful logout' has passed
+DEBUG   2018-11-09 10:13:55,253 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 10:13:55,253 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 10:13:55,255 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 10:13:55,255 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 10:13:56,848 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 10:13:56,953 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 10:13:56,955 [environment] Running new scenario: Account Registration
+DEBUG   2018-11-09 10:13:56,956 [registration] 
+Atempting to open the page
+INFO    2018-11-09 10:14:09,250 [environment] The scenario 'Account Registration' has passed
+DEBUG   2018-11-09 10:14:09,318 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 10:14:09,318 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 10:14:09,320 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 10:14:09,321 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 10:14:10,924 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 10:14:11,029 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 10:14:11,030 [environment] Running new scenario: login
+DEBUG   2018-11-09 10:14:11,032 [search] 
+Atempting to open the page
+DEBUG   2018-11-09 10:14:15,308 [search] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-09 10:14:15,576 [search] 
+Atempting to click login button
+INFO    2018-11-09 10:14:33,673 [environment] The scenario 'login' has passed
+DEBUG   2018-11-09 11:33:47,905 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:33:47,906 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:33:47,909 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:33:47,909 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:33:49,510 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:33:49,615 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:33:49,617 [environment] Running new scenario: Process of buying an item
+DEBUG   2018-11-09 11:33:49,619 [buying_item] 
+Atempting to open the page
+ERROR   2018-11-09 11:33:58,396 [environment] The scenario 'Process of buying an item' has failed
+INFO    2018-11-09 11:33:58,545 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-09_113347_chrome/01_Process_of_buying_an_item.png
+DEBUG   2018-11-09 11:33:58,546 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-09 11:35:13,291 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:35:13,291 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:35:13,295 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:35:13,295 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:35:14,893 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:35:14,997 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:35:14,998 [environment] Running new scenario: Process of buying an item
+DEBUG   2018-11-09 11:35:15,000 [buying_item] 
+Atempting to open the page
+ERROR   2018-11-09 11:35:39,298 [environment] The scenario 'Process of buying an item' has failed
+INFO    2018-11-09 11:35:39,440 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-09_113513_chrome/01_Process_of_buying_an_item.png
+DEBUG   2018-11-09 11:35:39,441 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-09 11:39:47,579 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:39:47,579 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:39:47,582 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:39:47,582 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:39:49,172 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:39:49,277 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:39:49,278 [environment] Running new scenario: Process of buying an item
+DEBUG   2018-11-09 11:39:49,280 [buying_item] 
+Atempting to open the page
+ERROR   2018-11-09 11:39:55,416 [environment] The scenario 'Process of buying an item' has failed
+INFO    2018-11-09 11:39:55,579 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-09_113947_chrome/01_Process_of_buying_an_item.png
+DEBUG   2018-11-09 11:39:55,581 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-09 11:39:55,652 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:39:55,652 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:39:55,655 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:39:55,656 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:39:57,254 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:39:57,358 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:39:57,359 [environment] Running new scenario: successful login
+DEBUG   2018-11-09 11:39:57,361 [login] 
+Atempting to open the page
+DEBUG   2018-11-09 11:40:06,258 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-09 11:40:06,544 [login] 
+Atempting to click login button
+INFO    2018-11-09 11:40:13,128 [environment] The scenario 'successful login' has passed
+DEBUG   2018-11-09 11:40:13,190 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:40:13,190 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:40:13,192 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:40:13,192 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:40:14,903 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:40:15,008 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:40:15,011 [environment] Running new scenario: successful logout
+DEBUG   2018-11-09 11:40:15,013 [login] 
+Atempting to open the page
+DEBUG   2018-11-09 11:40:19,580 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-09 11:40:19,867 [login] 
+Atempting to click login button
+DEBUG   2018-11-09 11:40:26,871 [secure_area] 
+Atempting to click logout button
+INFO    2018-11-09 11:40:33,954 [environment] The scenario 'successful logout' has passed
+DEBUG   2018-11-09 11:40:34,015 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:40:34,015 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:40:34,018 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:40:34,019 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:40:35,608 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:40:35,716 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:40:35,719 [environment] Running new scenario: Account Registration
+DEBUG   2018-11-09 11:40:35,721 [registration] 
+Atempting to open the page
+INFO    2018-11-09 11:40:53,696 [environment] The scenario 'Account Registration' has passed
+DEBUG   2018-11-09 11:40:53,762 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:40:53,762 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:40:53,765 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:40:53,765 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:40:55,350 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:40:55,454 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:40:55,455 [environment] Running new scenario: login
+DEBUG   2018-11-09 11:40:55,457 [search] 
+Atempting to open the page
+DEBUG   2018-11-09 11:41:00,254 [search] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-09 11:41:00,518 [search] 
+Atempting to click login button
+INFO    2018-11-09 11:41:18,773 [environment] The scenario 'login' has passed
+DEBUG   2018-11-09 11:43:29,195 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:43:29,195 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:43:29,199 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:43:29,199 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:43:30,781 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:43:30,886 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:43:30,887 [environment] Running new scenario: Process of buying an item
+ERROR   2018-11-09 11:43:30,896 [environment] The scenario 'Process of buying an item' has failed
+INFO    2018-11-09 11:43:31,061 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-09_114329_chrome/01_Process_of_buying_an_item.png
+DEBUG   2018-11-09 11:43:31,062 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-09 11:45:49,249 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:45:49,249 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:45:49,253 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:45:49,253 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:45:50,850 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:45:50,955 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:45:50,956 [environment] Running new scenario: Process of buying an item
+ERROR   2018-11-09 11:45:50,960 [environment] The scenario 'Process of buying an item' has failed
+INFO    2018-11-09 11:45:51,109 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-09_114549_chrome/01_Process_of_buying_an_item.png
+DEBUG   2018-11-09 11:45:51,111 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-09 11:46:05,505 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:46:05,506 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:46:05,509 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:46:05,509 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:46:07,119 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:46:07,224 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:46:07,226 [environment] Running new scenario: Process of buying an item
+ERROR   2018-11-09 11:46:07,229 [environment] The scenario 'Process of buying an item' has failed
+INFO    2018-11-09 11:46:07,372 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-09_114605_chrome/01_Process_of_buying_an_item.png
+DEBUG   2018-11-09 11:46:07,373 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-09 11:46:07,435 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:46:07,436 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:46:07,437 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:46:07,438 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:46:09,036 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:46:09,144 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:46:09,146 [environment] Running new scenario: successful login
+DEBUG   2018-11-09 11:46:09,147 [login] 
+Atempting to open the page
+DEBUG   2018-11-09 11:46:13,326 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-09 11:46:13,609 [login] 
+Atempting to click login button
+ERROR   2018-11-09 11:46:15,443 [environment] The scenario 'successful login' has failed
+DEBUG   2018-11-09 11:46:15,446 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-11-09 11:46:49,743 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:46:49,743 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:46:49,747 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:46:49,747 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:46:51,341 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:46:51,445 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:46:51,447 [environment] Running new scenario: Process of buying an item
+DEBUG   2018-11-09 11:46:51,449 [buying_item] 
+Atempting to open the page
+DEBUG   2018-11-09 11:46:55,459 [buying_item] Login with user '{username}'
+DEBUG   2018-11-09 11:46:55,703 [buying_item] 
+Atempting to click login button
+INFO    2018-11-09 11:47:02,263 [environment] The scenario 'Process of buying an item' has passed
+DEBUG   2018-11-09 11:54:21,262 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-09 11:54:21,262 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-09 11:54:21,265 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-09 11:54:21,266 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-11-09 11:54:22,848 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-09 11:54:22,954 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-11-09 11:54:22,956 [environment] Running new scenario: Process of buying an item
+DEBUG   2018-11-09 11:54:22,958 [buying_item] 
+Atempting to open the page
+DEBUG   2018-11-09 11:54:28,129 [buying_item] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-09 11:54:28,403 [buying_item] 
+Atempting to click login button
+INFO    2018-11-09 11:54:36,557 [environment] The scenario 'Process of buying an item' has passed
