@@ -56,5 +56,19 @@ class BuyingItemPageObject(PageObject):
         self.password.text = user['password']
         self.logger.debug("\nAtempting to click login button")
         self.login_button.click()
-        time.sleep(5)
+        time.sleep(3)
     
+    def hover(self):
+        self.hover_dresses = self.driver.find_element(By.XPATH, '//*[@id="block_top_menu"]/ul/li[2]/a')
+        self.hover_over = ActionChains(self.driver).move_to_element(self.hover_dresses).perform()
+        time.sleep(3)
+        self.select_dress = self.driver.find_element(By.XPATH, '//*[@id="block_top_menu"]/ul/li[2]/ul/li[3]/a')
+        self.hover = ActionChains(self.driver).move_to_element(self.select_dress).click(self.select_dress).perform()
+        self.driver.execute_script("window.scrollTo(0,700, document.body.scrollHeight)")
+        time.sleep(3)
+
+    def add_item(self):
+        self.select_item = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li[1]/div/div[1]/div/a[1]/img')
+        self.hover = ActionChains(self.driver).move_to_element(self.select_item).perform()
+        self.add_to_cart = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li[1]/div/div[2]/div[2]/a[1]').click()
+        time.sleep(3)

@@ -61,6 +61,6 @@ class LoginPageObject(PageObject):
         self.password.text = user['password']
         self.logger.debug("\nAtempting to click login button")
         self.login_button.click()
-        time.sleep(5)
+        time.sleep(3)
         
         return SecureAreaPageObject(self.driver_wrapper)

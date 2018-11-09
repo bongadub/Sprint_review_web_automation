@@ -46,3 +46,39 @@
 2018-11-09 11:39:55.583695 'Process of buying an item' test logs with driver = chrome
 
 2018-11-09 11:39:55.082000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-09 12:24:52.876743 'successful logout' test logs with driver = chrome
+
+2018-11-09 12:24:36.204000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-09 12:32:06.093013 'Process of buying an item' test logs with driver = chrome
+
+2018-11-09 12:31:57.697000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-09 12:36:29.732841 'Process of buying an item' test logs with driver = chrome
+
+2018-11-09 12:36:21.954000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-09 12:37:08.437261 'Process of buying an item' test logs with driver = chrome
+
+2018-11-09 12:37:00.728000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-09 12:40:54.049120 'Process of buying an item' test logs with driver = chrome
+
+2018-11-09 12:40:46.160000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-09 12:43:25.730430 'Process of buying an item' test logs with driver = chrome
+
+2018-11-09 12:43:17.962000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-09 12:45:36.403274 'Process of buying an item' test logs with driver = chrome
+
+2018-11-09 12:45:29.350000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-09 12:47:46.766832 'Process of buying an item' test logs with driver = chrome
+
+2018-11-09 12:47:36.297000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+
+2018-11-09 13:36:11.186101 'Process of buying an item' test logs with driver = chrome
+
+2018-11-09 13:35:53.726000	WARNING	http://automationpractice.com/index.php?controller=authentication&back=my-account/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.

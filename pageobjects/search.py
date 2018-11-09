@@ -73,7 +73,7 @@ class SearchPageObject(PageObject):
         self.password.text = user['password']
         self.logger.debug("\nAtempting to click login button")
         self.login_button.click()
-        time.sleep(5)
+        time.sleep(3)
 
         return self
         
@@ -93,3 +93,4 @@ class SearchPageObject(PageObject):
         self.add_btn = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li/div/div[2]/div[2]/a[2]').click()
         self.add_to_cart = self.driver.find_element(By.XPATH, '//*[@id="add_to_cart"]/button').click()
         time.sleep(3)
+

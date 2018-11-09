@@ -29,3 +29,13 @@ def step_impl(context):
 def step_impl(context, username, password):
     user = {'username': username, 'password': password}
     context.current_page = context.current_page.login(user)
+
+@when('the user hovers over dresses and select dress choice')
+def step_impl(context):
+	context.current_page = BuyingItemPageObject()
+	context.current_page.hover()
+
+@when('the user add item to cart')
+def step_impl(context):
+	context.current_page = BuyingItemPageObject()
+	context.current_page.add_item()
