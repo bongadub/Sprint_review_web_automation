@@ -72,3 +72,17 @@ class BuyingItemPageObject(PageObject):
         self.hover = ActionChains(self.driver).move_to_element(self.select_item).perform()
         self.add_to_cart = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li[1]/div/div[2]/div[2]/a[1]').click()
         time.sleep(3)
+
+    def checkout(self):
+        self.checkout_btn = self.driver.find_element(By.XPATH, '//*[@id="layer_cart"]/div[1]/div[2]/div[4]/a').click()
+        self.driver.execute_script("window.scrollTo(0,500, document.body.scrollHeight)")
+        self.cart_summary = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/p[2]/a[1]').click()
+        self.driver.execute_script("window.scrollTo(0,500, document.body.scrollHeight)")
+        self.address_btn = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/form/p/button').click()
+        self.driver.execute_script("window.scrollTo(0,300, document.body.scrollHeight)")
+        self.shipping_btn = self.driver.find_element(By.XPATH, '//*[@id="cgv"]').click()
+        self.shipping_btn2 = self.driver.find_element(By.XPATH, '//*[@id="form"]/p/button').click()
+        self.driver.execute_script("window.scrollTo(0,300, document.body.scrollHeight)")
+        self.pay_method = self.driver.find_element(By.XPATH, '//*[@id="HOOK_PAYMENT"]/div[1]/div/p/a').click()
+        self.confirm_order = self.driver.find_element(By.XPATH, '//*[@id="cart_navigation"]/button').click()
+        time.sleep(5)

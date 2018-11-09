@@ -39,3 +39,8 @@ def step_impl(context):
 def step_impl(context):
 	context.current_page = BuyingItemPageObject()
 	context.current_page.add_item()
+
+@when('the user checkout')
+def step_impl(context):
+	context.current_page = BuyingItemPageObject()
+	context.current_page.checkout()

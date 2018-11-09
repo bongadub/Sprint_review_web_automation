@@ -7,3 +7,4 @@ Feature: Buying item
 
      When the user hovers over dresses and select dress choice
      And the user add item to cart
+     And the user checkout 
