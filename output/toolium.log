@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DEBUG   2018-11-07 12:41:27,529 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Sprint Review Tasks/Sprint_review_web_automation/conf/properties.cfg
 DEBUG   2018-11-07 12:41:27,530 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Sprint Review Tasks/Sprint_review_web_automation/conf/local-properties.cfg
 INFO    2018-11-07 12:41:27,536 [config_driver] Creating local driver (type = chrome)
@@ -4400,3 +4401,5 @@ DEBUG   2018-11-13 10:21:21,902 [search] Login with user 'bongadubula@gmail.com'
 DEBUG   2018-11-13 10:21:22,181 [search] 
 Atempting to click login button
 INFO    2018-11-13 10:21:37,390 [environment] The scenario 'login' has passed
+=======
+>>>>>>> 5eaf35bbca9ac4fea4963df377ae1ad7de0b2765
