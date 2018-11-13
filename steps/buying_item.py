@@ -25,7 +25,7 @@ def step_impl(context):
     context.current_page = BuyingItemPageObject()
     assert context.current_page.open()
 
-@then('user logs with username "{username}" and password "{password}"')
+@when('user logs with username "{username}" and password "{password}"')
 def step_impl(context, username, password):
     user = {'username': username, 'password': password}
     context.current_page = context.current_page.login(user)
@@ -33,14 +33,14 @@ def step_impl(context, username, password):
 @when('the user hovers over dresses and select dress choice')
 def step_impl(context):
 	context.current_page = BuyingItemPageObject()
-	context.current_page.hover()
+	assert context.current_page.hover()
 
 @when('the user add item to cart')
 def step_impl(context):
 	context.current_page = BuyingItemPageObject()
-	context.current_page.add_item()
+	assert context.current_page.add_item()
 
-@when('the user checkout')
+@then('the user checkout')
 def step_impl(context):
 	context.current_page = BuyingItemPageObject()
-	context.current_page.checkout()
+	assert context.current_page.checkout()
