@@ -1,0 +1,12 @@
+language: python
+sudo: flase
+python:
+    - "2.7"
+ 
+services:
+    - docker
+    
+script:
+    - sudo docker run -it -v /$(pwd):/dev/shm/ kineticskunk/node-chrome:3.11.1-toolium bash -c "cd dev/shm/; 
+      sudo apt-get update && sudo apt-get upgrade -y; 
+      sudo behave"
