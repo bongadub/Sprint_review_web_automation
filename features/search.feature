@@ -6,4 +6,4 @@ Feature: Search
      Then user logs in with username "bongadubula@gmail.com" and password "bonga"
 
      When the user search for an item
-     And add item to cart 
+     And click add to cart button to add an item to cart 

@@ -35,10 +35,10 @@ def step_impl(context, username, password):
 @when('the user search for an item')
 def step_impl(context):
 	context.current_page = SearchPageObject()
-	context.current_page.search()
+	assert context.current_page.search()
 
-@when('add item to cart')
+@when('click add to cart button to add an item to cart')
 def step_impl(context):
 	context.current_page = SearchPageObject()
-	context.current_page.add_item()
+	assert context.current_page.add_item()
 

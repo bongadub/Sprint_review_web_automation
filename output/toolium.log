@@ -4403,3 +4403,884 @@ Atempting to click login button
 INFO    2018-11-13 10:21:37,390 [environment] The scenario 'login' has passed
 =======
 >>>>>>> 5eaf35bbca9ac4fea4963df377ae1ad7de0b2765
+DEBUG   2018-11-13 14:31:21,272 [config_parser] Reading properties from file: /dev/shm/conf/properties.cfg
+DEBUG   2018-11-13 14:31:21,272 [config_parser] Properties config file not found: /dev/shm/conf/local-properties.cfg
+INFO    2018-11-13 14:31:21,279 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-13 14:31:21,279 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-13 14:31:21,279 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-13 14:31:21,279 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-13 14:31:21,279 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-13 14:31:21,280 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-13 14:31:21,281 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-13 14:31:21,281 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-13 14:31:21,281 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-13 14:31:21,281 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-13 14:31:21,281 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-13 14:31:21,281 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-13 14:31:21,281 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-13 14:31:21,281 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-13 14:31:23,429 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-13 14:31:23,539 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-13 14:31:23,541 [environment] Running new scenario: Process of buying an item
+DEBUG   2018-11-13 14:31:23,543 [buying_item] 
+Atempting to open the page
+DEBUG   2018-11-13 14:31:29,142 [buying_item] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-13 14:31:29,853 [buying_item] 
+Atempting to click login button
+INFO    2018-11-13 14:32:00,294 [environment] The scenario 'Process of buying an item' has passed
+DEBUG   2018-11-13 14:32:00,361 [config_parser] Reading properties from file: /dev/shm/conf/properties.cfg
+DEBUG   2018-11-13 14:32:00,362 [config_parser] Properties config file not found: /dev/shm/conf/local-properties.cfg
+INFO    2018-11-13 14:32:00,366 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-13 14:32:00,366 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-13 14:32:00,366 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-13 14:32:00,366 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-13 14:32:00,366 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-13 14:32:00,366 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-13 14:32:00,367 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-13 14:32:00,368 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-13 14:32:00,368 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-13 14:32:00,368 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-13 14:32:00,368 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-13 14:32:00,368 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-13 14:32:00,368 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-13 14:32:00,368 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-13 14:32:00,368 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-13 14:32:02,107 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-13 14:32:02,217 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-13 14:32:02,220 [environment] Running new scenario: successful login
+DEBUG   2018-11-13 14:32:02,222 [login] 
+Atempting to open the page
+DEBUG   2018-11-13 14:32:06,990 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-13 14:32:07,699 [login] 
+Atempting to click login button
+INFO    2018-11-13 14:32:12,194 [environment] The scenario 'successful login' has passed
+DEBUG   2018-11-13 14:32:12,263 [config_parser] Reading properties from file: /dev/shm/conf/properties.cfg
+DEBUG   2018-11-13 14:32:12,263 [config_parser] Properties config file not found: /dev/shm/conf/local-properties.cfg
+INFO    2018-11-13 14:32:12,267 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-13 14:32:12,267 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-13 14:32:12,267 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-13 14:32:12,267 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-13 14:32:12,267 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-13 14:32:12,267 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-13 14:32:12,268 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-13 14:32:12,269 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-13 14:32:12,269 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-13 14:32:12,269 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-13 14:32:12,269 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-13 14:32:12,269 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-13 14:32:12,269 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-13 14:32:12,269 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-13 14:32:12,269 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-13 14:32:13,980 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-13 14:32:14,088 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-13 14:32:14,090 [environment] Running new scenario: successful logout
+DEBUG   2018-11-13 14:32:14,092 [login] 
+Atempting to open the page
+DEBUG   2018-11-13 14:32:18,521 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-13 14:32:19,216 [login] 
+Atempting to click login button
+DEBUG   2018-11-13 14:32:23,758 [secure_area] 
+Atempting to click logout button
+INFO    2018-11-13 14:32:30,866 [environment] The scenario 'successful logout' has passed
+DEBUG   2018-11-13 14:32:30,939 [config_parser] Reading properties from file: /dev/shm/conf/properties.cfg
+DEBUG   2018-11-13 14:32:30,939 [config_parser] Properties config file not found: /dev/shm/conf/local-properties.cfg
+INFO    2018-11-13 14:32:30,946 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-13 14:32:30,947 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-13 14:32:30,948 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-13 14:32:30,949 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-13 14:32:30,949 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-13 14:32:30,949 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-13 14:32:30,949 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-13 14:32:32,663 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-13 14:32:32,772 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-13 14:32:32,777 [environment] Running new scenario: Account Registration
+DEBUG   2018-11-13 14:32:32,778 [registration] 
+Atempting to open the page
+INFO    2018-11-13 14:32:46,315 [environment] The scenario 'Account Registration' has passed
+DEBUG   2018-11-13 14:32:46,383 [config_parser] Reading properties from file: /dev/shm/conf/properties.cfg
+DEBUG   2018-11-13 14:32:46,383 [config_parser] Properties config file not found: /dev/shm/conf/local-properties.cfg
+INFO    2018-11-13 14:32:46,386 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-13 14:32:46,387 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-13 14:32:46,388 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-13 14:32:46,389 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-13 14:32:46,389 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-13 14:32:48,078 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-13 14:32:48,187 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-13 14:32:48,190 [environment] Running new scenario: login
+DEBUG   2018-11-13 14:32:48,193 [search] 
+Atempting to open the page
+DEBUG   2018-11-13 14:32:52,435 [search] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-13 14:32:53,129 [search] 
+Atempting to click login button
+INFO    2018-11-13 14:33:08,290 [environment] The scenario 'login' has passed
+DEBUG   2018-11-14 10:12:32,670 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:12:32,670 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:12:32,678 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:12:32,678 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:12:32,678 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:12:32,679 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:12:32,680 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:12:32,681 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:12:35,003 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:12:35,112 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:12:35,116 [environment] Running new scenario: login
+DEBUG   2018-11-14 10:12:35,120 [search] 
+Atempting to open the page
+DEBUG   2018-11-14 10:12:39,333 [search] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 10:12:39,591 [search] 
+Atempting to click login button
+ERROR   2018-11-14 10:12:50,104 [environment] The scenario 'login' has failed
+INFO    2018-11-14 10:12:50,185 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-14_101232_chrome/01_login.png
+DEBUG   2018-11-14 10:12:50,187 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-14 10:13:37,590 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:13:37,590 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:13:37,598 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:13:37,598 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:13:37,598 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:13:37,599 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:13:37,600 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:13:37,600 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:13:37,600 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:13:37,600 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:13:37,600 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:13:37,600 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:13:37,600 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:13:37,600 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:13:37,600 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:13:38,900 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:13:39,011 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:13:39,012 [environment] Running new scenario: login
+DEBUG   2018-11-14 10:13:39,014 [search] 
+Atempting to open the page
+DEBUG   2018-11-14 10:13:43,659 [search] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 10:13:43,930 [search] 
+Atempting to click login button
+INFO    2018-11-14 10:13:59,816 [environment] The scenario 'login' has passed
+DEBUG   2018-11-14 10:25:57,576 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:25:57,576 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:25:57,584 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:25:57,585 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:25:57,586 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:25:58,889 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:25:58,999 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:25:59,002 [environment] Running new scenario: login
+DEBUG   2018-11-14 10:25:59,004 [search] 
+Atempting to open the page
+DEBUG   2018-11-14 10:26:03,605 [search] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 10:26:03,865 [search] 
+Atempting to click login button
+INFO    2018-11-14 10:26:20,858 [environment] The scenario 'login' has passed
+DEBUG   2018-11-14 10:30:13,214 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:30:13,214 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:30:13,222 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:30:13,222 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:30:13,222 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:30:13,222 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:30:13,223 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:30:13,224 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:30:13,224 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:30:13,224 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:30:13,224 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:30:13,224 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:30:13,224 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:30:13,224 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:30:13,224 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:30:13,224 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:30:14,525 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:30:14,636 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:30:14,640 [environment] Running new scenario: Account Registration
+DEBUG   2018-11-14 10:30:14,643 [registration] 
+Atempting to open the page
+ERROR   2018-11-14 10:30:23,341 [environment] The scenario 'Account Registration' has failed
+INFO    2018-11-14 10:30:23,417 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-14_103013_chrome/01_Account_Registration.png
+DEBUG   2018-11-14 10:30:23,419 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-14 10:31:01,513 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:31:01,513 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:31:01,520 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:31:01,521 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:31:01,522 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:31:02,825 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:31:02,935 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:31:02,939 [environment] Running new scenario: Account Registration
+DEBUG   2018-11-14 10:31:02,943 [registration] 
+Atempting to open the page
+INFO    2018-11-14 10:31:16,674 [environment] The scenario 'Account Registration' has passed
+DEBUG   2018-11-14 10:39:14,633 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:39:14,633 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:39:14,641 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:39:14,641 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:39:14,641 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:39:14,641 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:39:14,641 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:39:14,642 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:39:14,643 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:39:14,643 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:39:14,643 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:39:14,643 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:39:14,643 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:39:14,643 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:39:14,643 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:39:14,643 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:39:15,944 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:39:16,054 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:39:16,059 [environment] Running new scenario: Account Registration
+DEBUG   2018-11-14 10:39:16,060 [registration] 
+Atempting to open the page
+INFO    2018-11-14 10:39:28,137 [environment] The scenario 'Account Registration' has passed
+DEBUG   2018-11-14 10:45:03,081 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:45:03,082 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:45:03,088 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:45:03,088 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:45:03,088 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:45:03,089 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:45:03,090 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:45:03,091 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:45:03,091 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:45:04,387 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:45:04,496 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:45:04,499 [environment] Running new scenario: successful login
+ERROR   2018-11-14 10:45:04,503 [environment] The scenario 'successful login' has failed
+INFO    2018-11-14 10:45:04,607 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-14_104503_chrome/01_successful_login.png
+DEBUG   2018-11-14 10:45:04,608 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-14 10:45:04,676 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:45:04,677 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:45:04,679 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:45:04,680 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:45:04,681 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:45:05,979 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:45:06,086 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:45:06,089 [environment] Running new scenario: successful logout
+ERROR   2018-11-14 10:45:06,092 [environment] The scenario 'successful logout' has failed
+INFO    2018-11-14 10:45:06,191 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-14_104503_chrome/02_successful_logout.png
+DEBUG   2018-11-14 10:45:06,193 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-14 10:45:49,937 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:45:49,937 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:45:49,944 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:45:49,944 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:45:49,944 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:45:49,945 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:45:49,946 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:45:49,947 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:45:51,245 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:45:51,355 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:45:51,358 [environment] Running new scenario: successful login
+DEBUG   2018-11-14 10:45:51,360 [login] 
+Atempting to open the page
+DEBUG   2018-11-14 10:45:56,193 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 10:45:56,474 [login] 
+Atempting to click login button
+INFO    2018-11-14 10:46:01,299 [environment] The scenario 'successful login' has passed
+DEBUG   2018-11-14 10:46:01,364 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:46:01,365 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:46:01,367 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:46:01,368 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:46:01,369 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:46:02,670 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:46:02,776 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:46:02,780 [environment] Running new scenario: successful logout
+DEBUG   2018-11-14 10:46:02,782 [login] 
+Atempting to open the page
+DEBUG   2018-11-14 10:46:07,570 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 10:46:07,844 [login] 
+Atempting to click login button
+ERROR   2018-11-14 10:46:12,337 [environment] The scenario 'successful logout' has failed
+INFO    2018-11-14 10:46:12,420 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-14_104549_chrome/01_successful_logout.png
+DEBUG   2018-11-14 10:46:12,422 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-14 10:57:03,755 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:57:03,756 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:57:03,762 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:57:03,762 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:57:03,762 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:57:03,762 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:57:03,763 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:57:03,764 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:57:05,068 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:57:05,178 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:57:05,181 [environment] Running new scenario: successful login
+DEBUG   2018-11-14 10:57:05,183 [login] 
+Atempting to open the page
+DEBUG   2018-11-14 10:57:09,918 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 10:57:10,178 [login] 
+Atempting to click login button
+INFO    2018-11-14 10:57:14,629 [environment] The scenario 'successful login' has passed
+DEBUG   2018-11-14 10:57:14,696 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:57:14,696 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:57:14,699 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:57:14,699 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:57:14,699 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:57:14,699 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:57:14,699 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:57:14,699 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:57:14,699 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:57:14,699 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:57:14,700 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:57:14,701 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:57:14,701 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:57:14,701 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:57:14,701 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:57:16,005 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:57:16,114 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:57:16,119 [environment] Running new scenario: successful logout
+DEBUG   2018-11-14 10:57:16,120 [login] 
+Atempting to open the page
+DEBUG   2018-11-14 10:57:20,567 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 10:57:20,829 [login] 
+Atempting to click login button
+ERROR   2018-11-14 10:57:25,643 [environment] The scenario 'successful logout' has failed
+INFO    2018-11-14 10:57:25,728 [utils] Screenshot saved in /home/kineticskunk/Desktop/sprint_review_web_automation/output/screenshots/2018-11-14_105703_chrome/01_successful_logout.png
+DEBUG   2018-11-14 10:57:25,730 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-11-14 10:58:19,503 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:58:19,504 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:58:19,510 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:58:19,510 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:58:19,510 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:58:19,510 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:58:19,510 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:58:19,510 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:58:19,511 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:58:19,512 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:58:19,512 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:58:19,512 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:58:19,512 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:58:19,512 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:58:19,512 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:58:20,811 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:58:20,921 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:58:20,924 [environment] Running new scenario: successful login
+DEBUG   2018-11-14 10:58:20,928 [login] 
+Atempting to open the page
+DEBUG   2018-11-14 10:58:25,543 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 10:58:25,827 [login] 
+Atempting to click login button
+INFO    2018-11-14 10:58:30,477 [environment] The scenario 'successful login' has passed
+DEBUG   2018-11-14 10:58:30,545 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 10:58:30,545 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 10:58:30,549 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 10:58:30,550 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 10:58:30,550 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 10:58:30,550 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 10:58:30,550 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 10:58:30,550 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 10:58:30,550 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 10:58:30,551 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 10:58:30,551 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 10:58:30,551 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 10:58:30,551 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 10:58:30,551 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 10:58:30,551 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 10:58:30,551 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 10:58:30,551 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 10:58:30,551 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 10:58:30,552 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 10:58:30,552 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 10:58:30,552 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 10:58:30,552 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 10:58:30,552 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 10:58:30,552 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 10:58:30,552 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 10:58:30,552 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 10:58:30,553 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 10:58:30,553 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 10:58:31,852 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 10:58:31,962 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 10:58:31,965 [environment] Running new scenario: successful logout
+DEBUG   2018-11-14 10:58:31,966 [login] 
+Atempting to open the page
+DEBUG   2018-11-14 10:58:36,012 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 10:58:36,274 [login] 
+Atempting to click login button
+DEBUG   2018-11-14 10:58:40,890 [secure_area] 
+Atempting to click logout button
+INFO    2018-11-14 10:58:48,282 [environment] The scenario 'successful logout' has passed
+DEBUG   2018-11-14 11:02:04,925 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 11:02:04,925 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 11:02:04,931 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 11:02:04,931 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 11:02:04,931 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 11:02:04,931 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 11:02:04,931 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 11:02:04,931 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 11:02:04,931 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 11:02:04,931 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 11:02:04,931 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 11:02:04,931 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 11:02:04,932 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 11:02:04,933 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 11:02:04,933 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 11:02:04,933 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 11:02:04,933 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 11:02:06,236 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 11:02:06,346 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 11:02:06,351 [environment] Running new scenario: Process of buying an item
+DEBUG   2018-11-14 11:02:06,352 [buying_item] 
+Atempting to open the page
+DEBUG   2018-11-14 11:02:11,701 [buying_item] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 11:02:11,964 [buying_item] 
+Atempting to click login button
+INFO    2018-11-14 11:02:42,899 [environment] The scenario 'Process of buying an item' has passed
+DEBUG   2018-11-14 11:02:42,967 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 11:02:42,967 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 11:02:42,971 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 11:02:42,971 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 11:02:42,971 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 11:02:42,971 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 11:02:42,971 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 11:02:42,972 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 11:02:42,973 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 11:02:42,973 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 11:02:42,973 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 11:02:42,973 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 11:02:42,973 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 11:02:42,973 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 11:02:42,973 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 11:02:42,973 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 11:02:44,273 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 11:02:44,383 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 11:02:44,386 [environment] Running new scenario: successful login
+DEBUG   2018-11-14 11:02:44,387 [login] 
+Atempting to open the page
+DEBUG   2018-11-14 11:02:50,417 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 11:02:50,673 [login] 
+Atempting to click login button
+INFO    2018-11-14 11:02:55,195 [environment] The scenario 'successful login' has passed
+DEBUG   2018-11-14 11:02:55,257 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 11:02:55,258 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 11:02:55,262 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 11:02:55,262 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 11:02:55,262 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 11:02:55,263 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 11:02:55,263 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 11:02:55,263 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 11:02:55,263 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 11:02:55,263 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 11:02:55,263 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 11:02:55,263 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 11:02:55,263 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 11:02:55,263 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 11:02:55,264 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 11:02:55,264 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 11:02:55,264 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 11:02:55,264 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 11:02:55,264 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 11:02:55,264 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 11:02:55,264 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 11:02:55,264 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 11:02:55,264 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 11:02:55,265 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 11:02:55,265 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 11:02:55,265 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 11:02:55,265 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 11:02:55,265 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 11:02:56,569 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 11:02:56,679 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 11:02:56,683 [environment] Running new scenario: successful logout
+DEBUG   2018-11-14 11:02:56,684 [login] 
+Atempting to open the page
+DEBUG   2018-11-14 11:03:01,378 [login] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 11:03:01,625 [login] 
+Atempting to click login button
+DEBUG   2018-11-14 11:03:06,576 [secure_area] 
+Atempting to click logout button
+INFO    2018-11-14 11:03:14,522 [environment] The scenario 'successful logout' has passed
+DEBUG   2018-11-14 11:03:14,585 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 11:03:14,585 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 11:03:14,589 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 11:03:14,589 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 11:03:14,589 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 11:03:14,589 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 11:03:14,589 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 11:03:14,589 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 11:03:14,589 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 11:03:14,589 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 11:03:14,589 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 11:03:14,589 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 11:03:14,590 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 11:03:14,591 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 11:03:14,591 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 11:03:14,591 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 11:03:14,591 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 11:03:14,591 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 11:03:15,890 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 11:03:15,999 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 11:03:16,002 [environment] Running new scenario: Account Registration
+DEBUG   2018-11-14 11:03:16,005 [registration] 
+Atempting to open the page
+INFO    2018-11-14 11:03:28,786 [environment] The scenario 'Account Registration' has passed
+DEBUG   2018-11-14 11:03:28,855 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/properties.cfg
+DEBUG   2018-11-14 11:03:28,855 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/sprint_review_web_automation/conf/local-properties.cfg
+INFO    2018-11-14 11:03:28,858 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: rotatable = false
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: takesScreenshot = true
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: unexpectedAlertBehavior = dismiss
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: acceptSslCerts = true
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: browserConnectionEnabled = true
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: javascriptEnabled = true
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: cssSelectorsEnabled = true
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: databaseEnabled = true
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: locationContextEnabled = true
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: platform = any
+DEBUG   2018-11-14 11:03:28,859 [config_driver] Added server capability: Selenium capabilities = https://github.com/SeleniumHQ/selenium/wiki/
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Added server capability: elementScrollBehavior = 1
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Added server capability: nativeEvents = true
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Added server capability: pageLoadingStrategy = normal
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Added server capability: applicationCacheEnabled = true
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Added server capability: webStorageEnabled = true
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Added server capability: handlesAlerts = true
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Added server capability: acceptSSLCerts = true
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Running Chrome in headless mode
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Added chrome preference: profile.password_manager_enabled = false
+DEBUG   2018-11-14 11:03:28,860 [config_driver] Added chrome argument: disable-gpu=true
+DEBUG   2018-11-14 11:03:28,861 [config_driver] Added chrome argument: no-sandbox=true
+DEBUG   2018-11-14 11:03:28,861 [config_driver] Added chrome argument: start-maximized=true
+DEBUG   2018-11-14 11:03:28,861 [config_driver] Added chrome argument: Xvfb=true
+DEBUG   2018-11-14 11:03:30,160 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-11-14 11:03:30,270 [driver_wrapper] Window size: 800 x 600
+INFO    2018-11-14 11:03:30,274 [environment] Running new scenario: login
+DEBUG   2018-11-14 11:03:30,276 [search] 
+Atempting to open the page
+DEBUG   2018-11-14 11:03:35,017 [search] Login with user 'bongadubula@gmail.com'
+DEBUG   2018-11-14 11:03:35,295 [search] 
+Atempting to click login button
+INFO    2018-11-14 11:03:51,398 [environment] The scenario 'login' has passed

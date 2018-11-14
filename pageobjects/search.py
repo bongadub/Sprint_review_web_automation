@@ -68,29 +68,40 @@ class SearchPageObject(PageObject):
         :param user: dict with username and password values
         :returns: secure area page object instance
         """
-        self.logger.debug("Login with user '%s'", user['username'])
-        self.username.text = user['username']
-        self.password.text = user['password']
-        self.logger.debug("\nAtempting to click login button")
-        self.login_button.click()
-        time.sleep(3)
+        try:
+            self.logger.debug("Login with user '%s'", user['username'])
+            self.username.text = user['username']
+            self.password.text = user['password']
+            self.logger.debug("\nAtempting to click login button")
+            self.login_button.click()
+            time.sleep(3)
 
-        return self
-        
-       # return SecureAreaPageObject(self.driver_wrapper)
+            return True
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
+            return None
 
     def search(self):
-        self.search_item = self.driver.find_element(By.XPATH, '//*[@id="search_query_top"]').send_keys('t-shirt')
-        self.search_btn = self.driver.find_element(By.XPATH, '//*[@id="searchbox"]/button').click()
-        time.sleep(3)
+        try:
+            self.search_item = self.driver.find_element(By.XPATH, '//*[@id="search_query_top"]').send_keys('t-shirt')
+            self.search_btn = self.driver.find_element(By.XPATH, '//*[@id="searchbox"]/button').click()
+            time.sleep(3)
 
-        return self
+            return True
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
+            return None
 
     def add_item(self):
-        self.driver.execute_script("window.scrollTo(0, 200, document.body.scrollHeight)")
-        self.item = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li/div/div[2]/h5/a')
-        self.hover = ActionChains(self.driver).move_to_element(self.item).perform()
-        self.add_btn = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li/div/div[2]/div[2]/a[2]').click()
-        self.add_to_cart = self.driver.find_element(By.XPATH, '//*[@id="add_to_cart"]/button').click()
-        time.sleep(3)
+        try:
+            self.driver.execute_script("window.scrollTo(0, 200, document.body.scrollHeight)")
+            self.item = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li/div/div[2]/h5/a')
+            self.hover = ActionChains(self.driver).move_to_element(self.item).perform()
+            self.add_btn = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li/div/div[2]/div[2]/a[2]').click()
+            self.add_to_cart = self.driver.find_element(By.XPATH, '//*[@id="add_to_cart"]/button').click()
+            time.sleep(3)
+
+            return True
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
 
