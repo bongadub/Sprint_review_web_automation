@@ -39,3 +39,4 @@ class SecureAreaPageObject(PageObject):
         except NoSuchElementException:
             self.auto_log("error", "Element {} does not exist".format(element))
             return None
+
