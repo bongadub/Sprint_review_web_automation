@@ -1,7 +1,7 @@
 @Search
 Feature: Search
 
-  Scenario: login
+  Scenario: Search and add item to cart
     Given the home page open
      Then user logs in with username "bongadubula@gmail.com" and password "bonga"
 
