@@ -29,11 +29,11 @@ def step_impl(context):
 @when('user enters email address and clicks the create account button')
 def step_impl(context):
 	context.current_page = RegistrationPageObject()
-	context.current_page.create_account()
+	assert context.current_page.create_account()
 
 
-@given('the user is on the registration page')
+@when('fills in user registration form')
 def step_impl(context):
 	context.current_page = RegistrationPageObject()
-	context.current_page.personal_info()
+	assert context.current_page.personal_info()
     

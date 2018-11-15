@@ -22,9 +22,9 @@ from toolium.pageobjects.page_object import PageObject
 class BuyingItemPageObject(PageObject):
     
     def init_page_elements(self):
-        self.username = InputText(By.ID, 'email')
-        self.password = InputText(By.ID, 'passwd')
-        self.login_button = Button(By.ID, 'SubmitLogin')
+            self.username = InputText(By.ID, 'email')
+            self.password = InputText(By.ID, 'passwd')
+            self.login_button = Button(By.ID, 'SubmitLogin')
 
     def open(self):
         self.logger.debug("\nAtempting to open the page")
