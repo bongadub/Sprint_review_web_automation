@@ -33,36 +33,34 @@ class LoginPageObject(PageObject):
         self.message = MessagePageObject()
 
     def open(self):
-        """ Open login url in browser
+        try:
+            self.logger.debug("\nAtempting to open the page")
+            self.driver.get('{}/login'.format(self.config.get('Test', 'url')))
 
-        :returns: this page object instance
-        """
-        self.logger.debug("\nAtempting to open the page")
-        self.driver.get('{}/login'.format(self.config.get('Test', 'url')))
-
-        return self
+            return True
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
+            return None
 
     def wait_until_loaded(self):
-        """ Wait until login page is loaded
+        try:
+            self.username.wait_until_visible()
 
-        :returns: this page object instance
-        """
-        self.username.wait_until_visible()
-        return self
+            return True
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
+            return None
 
     def login(self, user):
-        """ Fill login form and submit it
+        try:
+            self.logger.debug("Login with user '%s'", user['username'])
+            self.username.text = user['username']
+            self.password.text = user['password']
+            self.logger.debug("\nAtempting to click login button")
+            self.login_button.click()
+            time.sleep(3)
 
-        :param user: dict with username and password values
-        :returns: secure area page object instance
-        """
-        self.logger.debug("Login with user '%s'", user['username'])
-        self.username.text = user['username']
-        self.password.text = user['password']
-        self.logger.debug("\nAtempting to click login button")
-        self.login_button.click()
-        time.sleep(3)
-        
-        return SecureAreaPageObject(self.driver_wrapper)
-
-        #comment
+            return SecureAreaPageObject(self.driver_wrapper)
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
+            return None
