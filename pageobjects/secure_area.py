@@ -29,13 +29,13 @@ class SecureAreaPageObject(PageObject):
         self.logout_button = Button(By.XPATH, '//*[@id="header"]/div[2]/div/div/nav/div[2]/a')
 
     def logout(self):
-        """ Log out of secure area
+        try:
+            from pageobjects.login import LoginPageObject
+            self.logger.debug("\nAtempting to click logout button")
 
-        :returns: login page object instance
-        """
-        from pageobjects.login import LoginPageObject
-        self.logger.debug("\nAtempting to click logout button")
-
-        self.logout_button.click()
-        time.sleep(5)
-        return LoginPageObject(self.driver_wrapper).wait_until_loaded()
+            self.logout_button.click()
+            time.sleep(3)
+            return LoginPageObject(self.driver_wrapper).wait_until_loaded()
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
+            return None
