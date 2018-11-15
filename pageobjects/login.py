@@ -16,28 +16,51 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
-from behave import given, when, then
+from selenium.webdriver.common.by import By
 
-from pageobjects.login import LoginPageObject
+from toolium.pageobjects.page_object import PageObject
+from toolium.pageelements import *
+from pageobjects.message import MessagePageObject
+from pageobjects.secure_area import SecureAreaPageObject
+import time
 
+class LoginPageObject(PageObject):
 
-@given('the home page is open')
-def step_impl(context):
-    context.current_page = LoginPageObject()
-    assert context.current_page.open()
+    def init_page_elements(self):
+        self.username = InputText(By.ID, 'email')
+        self.password = InputText(By.ID, 'passwd')
+        self.login_button = Button(By.ID, 'SubmitLogin')
+        self.message = MessagePageObject()
 
+    def open(self):
+        try:
+            self.logger.debug("\nAtempting to open the page")
+            self.driver.get('{}/login'.format(self.config.get('Test', 'url')))
 
-@then('the user logs in with username "{username}" and password "{password}"')
-def step_impl(context, username, password):
-    user = {'username': username, 'password': password}
-    context.current_page = context.current_page.login(user)
+            return True
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
+            return None
 
+    def wait_until_loaded(self):
+        try:
+            self.username.wait_until_visible()
 
-@then('the user logs out')
-def step_impl(context):
-    assert context.current_page.logout()
+            return True
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
+            return None
 
+    def login(self, user):
+        try:
+            self.logger.debug("Login with user '%s'", user['username'])
+            self.username.text = user['username']
+            self.password.text = user['password']
+            self.logger.debug("\nAtempting to click login button")
+            self.login_button.click()
+            time.sleep(3)
 
-@then('the message "{message}" is shown')
-def step_impl(context, message):
-    assert message in context.current_page.message.get_message()
+            return SecureAreaPageObject(self.driver_wrapper)
+        except NoSuchElementException:
+            self.auto_log("error", "Element {} does not exist".format(element))
+            return None
