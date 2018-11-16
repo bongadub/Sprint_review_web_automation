@@ -23,22 +23,10 @@ class RegistrationPageObject(PageObject):
 
     
     def open(self):
-        """ Open login url in browser
-
-        :returns: this page object instance
-        """
         self.logger.debug("\nAtempting to open the page")
         self.driver.get('{}/login'.format(self.config.get('Test', 'url')))
 
         return self
-
-    # def wait_until_loaded(self):
-    #     """ Wait until login page is loaded
-
-    #     :returns: this page object instance
-    #     """
-    #     self.username.wait_until_visible()
-    #     return self
 
     def create_account(self):
         try:

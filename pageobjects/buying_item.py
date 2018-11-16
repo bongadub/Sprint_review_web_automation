@@ -68,7 +68,6 @@ class BuyingItemPageObject(PageObject):
     def add_item(self):
         try:
             self.select_item = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li[1]/div/div[1]/div/a[1]/img')
-            # self.debug("\nAdding new item")
             self.hover = ActionChains(self.driver).move_to_element(self.select_item).perform()
             self.add_to_cart = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li[1]/div/div[2]/div[2]/a[1]').click()
             time.sleep(3)

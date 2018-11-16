@@ -17,7 +17,6 @@ limitations under the License.
 """
 
 from behave import given, when, then
-
 from pageobjects.buying_item import BuyingItemPageObject
 
 @given('site home page is open')
